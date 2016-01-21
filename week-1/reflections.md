@@ -26,3 +26,23 @@ rm - remove file
 help - view help (manual) pages for a command
 
 ## 1.4 Forking and Cloning Reflection
+
+To create a new repo:
+- Log in to your GitHub account and click the ``+`` symbol (top right)
+- Select “New Repo” from the dropdown menu
+- Fill in the repo name, choose settings (public vs. private, license type, etc.), and click “Create Repo”
+
+To fork a repo:
+- On GitHub, navigate to the repo that you want to fork
+- On the top right, click “Fork”
+- Choose the user profile where the forked repo should be placed
+
+To clone a repo:
+- On GitHub, navigate to the repo that you want to clone
+- Find the box labeled “HTTPS” and copy the link
+- In your terminal, navigate to the folder where you want to clone the repo
+- Type “git clone ``<insert HTTPS link>``" and hit enter
+
+You fork a repo (vs. creating a new one) so that the repo will automatically include all of the existing project files, rather than being initialized as an empty git project.
+
+A challenge I had was that when I installed git it was automatically configured to use an existing username/email from an old GitHub account I had previously set up via my desktop. I learned how to update the config file and changed my username & email to match my current account.

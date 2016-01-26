@@ -1,5 +1,4 @@
-![](imgs/site-map.png)
-
+![Site Map](imgs/site-map.PNG)
 
 What are the 6 Phases of Web Design?
   1. Information Gathering

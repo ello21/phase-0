@@ -1,0 +1,141 @@
+body {
+  color: #000080;
+  background-color: white;
+  //width: 800px;
+  margin: auto;
+}
+
+footer {
+	font-size: 85%;
+}
+
+header {
+  text-align: center;
+  display: block;
+}
+
+h4 {
+     margin-bottom: 0px;
+  // border: 1px dashed green;
+}
+
+h5, h4:nth-child(3) {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   //border: 1px dashed orange;
+}
+
+ul li {
+	margin-bottom: 20px;
+}
+
+ul li ul li {
+  font-size: 70%;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  text-indent: -40px
+}
+
+p {
+	font-size: 85%;
+}
+
+a:link {
+  color: #800080;
+}
+
+a:visited {
+  color: red;
+}
+
+.address {
+  display: block;
+  margin: auto;
+}
+
+.contact-wrapper {
+	border-bottom: groove black;
+	border-top: groove black;
+  	border-width: 2px 0px 2px 0px;
+}
+
+.contact-info {
+  border-bottom-style: groove;
+  border-width: 2px 0px 0px 0px;
+  font-size: 85%;
+}
+
+.font-bold {
+	font-weight: 900;
+}
+
+.geico {
+  text-align: center;
+  display: block;
+  width: 600px;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 70%;
+}
+
+.geico p {
+  margin: 0px;
+}
+
+.geico-img{
+	margin: 0px 618px;
+}
+
+.geico-wrapper {
+	clear: both;
+	padding-top: 5px;
+}
+
+.resources-left {
+	float: left;
+	margin-left: 50px;
+}
+
+.resources-right {
+	float: right;
+	margin-right: 170px;
+}
+
+.resource-wrapper {
+	height: 332px;
+	border-top: 2px groove black;
+	border-bottom: 2px groove black;
+}
+
+.title-case {
+  font-size: 200%
+}
+
+/*
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+- It's important to know the relative path. If you use an absolute path and then later change servers
+or the path, then your link will be broken and your styles will not be displayed!
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+- "Treble" or T-R-B-L is how I remember the order that sides are referenced in properties like border & margin.
+**Ex: margin: 0px 25px 0px 25px** I also came up with "CaPBooM!" to remember that from inside to outside it's
+Contents --> Padding --> Border --> Margin.
+- It was time consuming. Browser defaults and unexpected consequences kept popping up when I moved elements.
+This was good practice though.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+- Lots! font-size, color, border-style, background-color, text-alignment, etc.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+- I used classes b/c the majority of my selectors could be reused. I only had 1 unique selector that I could've used
+an id for but chose to use a class b/c it could be used with another html file.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+- Mine was cleaner and followed "better" practices (maybe not best) but I also take into consideration that they did
+the best they could for what they knew back then.
+*/
+
+
+

@@ -9,8 +9,6 @@
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.
 
-
-
 # 0. Pseudocode
 
 # What is the input?

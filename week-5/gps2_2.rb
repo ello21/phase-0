@@ -79,13 +79,13 @@ print_list(list)
 # Reflection
 
 # What did you learn about pseudocode from working on this challenge?
-#   I learned that writing pseudocode that can be easily implemented can time-consuming
-#   I know that if we had more time during our GPS, we would have made our pseudocode more detailed
+#   I learned that writing pseudocode that can be easily implemented can be time-consuming.
+#   If we had more time, we would have made our pseudocode more detailed
 #   and closer to code. But for the sake of time, we tried to hit on the major points.
 
 # What are the tradeoffs of using Arrays and Hashes for this challenge?
-#   Using an array would have allowed for simple access to any sub-arrays, for example
-#   if we had made the list array contain an [item,quantity] at each index, we could
+#   Using an array would have allowed for simple access to any sub-arrays. For example
+#   if we had made the list array contain an array [item,quantity] at each index, we could
 #   have accessed the sub-index pretty easily. The hash was a simple way to show the
 #   relationship between the item and quantity, so that's why we went with it.
 

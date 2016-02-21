@@ -70,7 +70,6 @@ end
 # 2. Refactored Solution
 def separate_comma (int)
 	int_string=int.to_s
-	int_array=[]
 
 	if int_string.length < 4
 		p int_string

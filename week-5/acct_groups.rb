@@ -108,30 +108,30 @@ rock_doves = 'Adam Pinsky',
 
 def create_acct_groups(list)
 
-	if !(list.is_a?(Array))								# Convert list to Array
+	if !(list.is_a?(Array))
 		list = list.to_a
 	end
 
-	sub_list = list.each_slice(5).to_a 					# Split list into sub-Arrays of length 5
+	sub_list = list.each_slice(5).to_a
 
-	if (sub_list.last.length) < 3 						# If last sub-Array has less than 3 names
-		sub_list[-2] << sub_list.pop 					# Pop last sub_Array and add to second to last sub-Array
-		sub_list.last.flatten! 							# Flatten last sub_Array into 1 array
-		split_group = sub_list.pop.each_slice(3).to_a 	# Pop last sub_Array from list and split into sub-Arrays of 3 elements
-		split_group.each { |sub|						# Add each sub_Array back to list as separate arrays
+	if (sub_list.last.length) < 3
+		sub_list[-2] << sub_list.pop
+		sub_list.last.flatten!
+		split_group = sub_list.pop.each_slice(3).to_a
+			split_group.each { |sub|
 			sub_list << sub
 		}
 	end
 
-	groups = {}											# Empty Hash to store all groups
+	groups = {}
 
 	i=1
-	sub_list.each { |names|								# Add each sub-Array to groups Hash
-		groups["Group #{i}"] = names					# Use loop counter to assign key name
+	sub_list.each { |names|
+		groups["Group #{i}"] = names
 		i+=1
 	}
 
-	groups 												# Return groups Hash
+	groups
 end
 
 # Test and prettify output

@@ -106,7 +106,7 @@ key/value pair in the hash. I had seen the notation {|key,value|} before, so I t
 that if you only defined one variable, it would just be the key without the value. Our guide
 drew our attention to the fact that in the original code library.each do |food| was actually
 passing in both the food item AND it's number value to the code block. In our refactored code,
-we removed this and made it less amiguous.
+we removed this and made it less ambiguous.
 
 What concepts were solidified when working through this challenge?
 - Hash iteration, implicit/explicit return values, nested control structures, and DRY-ness!
